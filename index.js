@@ -27,7 +27,7 @@ const checkUser =(req, res, next) => {
 app.get('/', (req, res) => {
   res.render("home", {isPermision: req.hasPermision,
     weather: [
-      {city: "Ulaanbaatar", temp: 10, wind: 5},
+      {city: "Ulaanbaatars", temp: 10, wind: 5},
       {city: "Darkhan", temp: 5, wind: 3},
       {city: "Erdenet", temp: 7, wind: 4},
       {city: "Choibalsan", temp: 8, wind: 2},
